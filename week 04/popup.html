@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+            <!-- Theme CSS -->  
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-uppercase text-primary"><i class="bi bi-balloon-heart"></i>SCS112</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="price.html" class="nav-item nav-link">Pricing</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                                <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                                <a href="team.html" class="dropdown-item">The Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="appointment.html" class="dropdown-item">Appointment</a>
+                                <a href="search.html" class="dropdown-item">Search</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--Navbar end-->
+
+ <!--3Crads-->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Contact</h5>
+                <h1 class="display-4">Get in Touch</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x bi-mailbox text-white"></i>
+                        </div>
+                        <h4 class="mb-3">E-Mail</h4>
+                        <p class="m-0">pemika.wat@vru.ac.th</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x bi-phone text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Call On us</h4>
+                        <p class="m-0">123-456-789</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x bi-map text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Find us at</h4>
+                        <p class="m-0">Valaya</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    
+<div class="box">
+	<a class="button" href="#popup1">Contact us</a>
+</div>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Contact Form</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			<form name="contact-form" class="stage">
+  <Codegena></Codegena>
+  <hr>
+  <p></p>
+  Name:
+  <br />
+  <input class="contact-form-name" id="ContactForm1_contact-form-name" name="name" size="30" value="" type="text" placeholder="What should I call you?" autofocus required/>
+  <p></p>
+  E-mail:
+  <span style="font-weight: bolder;color:red;">*</span>
+  <br />
+  <input class="contact-form-email" id="ContactForm1_contact-form-email" name="email" size="30" value="" type="text"  placeholder="Where can I reach you?" required/>
+  <p></p>
+  Message: <span style="font-weight: bolder;color:red;">*</span>
+  <br />
+  <textarea class="contact-form-email-message" id="ContactForm1_contact-form-email-message" name="email-message" cols="25" rows="5" placeholder="What's on your mind?" required></textarea>
+  <p></p>
+  <input class="contact-form-button contact-form-button-submit" id="ContactForm1_contact-form-submit" value="Send" type="button" />
+  <p></p>
+  <div style="text-align: center; max-width: 222px; width: 100%">
+    <p class="contact-form-error-message" id="ContactForm1_contact-form-error-message"></p>
+    <p class="contact-form-success-message" id="ContactForm1_contact-form-success-message"></p>
+  </div>
+</form>
+		</div>
+	</div>
+</div>
+<!--3Crads end-->
+       
+        
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    </body>
+</html>
