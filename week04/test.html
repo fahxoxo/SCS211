@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!--Row4Col1 sample Input with re-q-->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <form class="needs-validation" action="sdfws">
+        <!--1 Row-->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mb-1 mt-1">
+              <label for="sel1" class="form-label"
+                >คณะ / สาขาวิชาที่เลือกเข้าศึกษา</label
+              >
+              <span style="color: red"> *</span>
+              <select
+                class="form-select"
+                id="major"
+                name="major"
+                style="border: 1px solid #16a085"
+              >
+                <option>
+                  คณะมนุษยศาสตร์และสังคมศาสตร์ | สาขาจิตวิทยา (ศศ.บ.)
+                </option>
+                <option>
+                  คณะมนุษยศาสตร์และสังคมศาสตร์ | สาขานิติศาสตร์ (น.บ.)
+                </option>
+                <option>
+                  คณะมนุษยศาสตร์และสังคมศาสตร์ | สาขานิติศาสตร์ (น.บ.)
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-6"></div>
+        </div>
+        <!--2 Row-->
+        <div class="row row-cols-5">
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="sel1" class="form-label">สัญชาติ</label>
+              <span style="color: red"> *</span>
+              <select
+                class="form-select"
+                id="major"
+                name="major"
+                style="border: 1px solid #16a085"
+              >
+                <option>ไทย</option>
+                <option>คณะมนุษยศาสต</option>
+                <option>คณะมนุษยศาสต</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="sel1" class="form-label">เพศ</label>
+              <span style="color: red"> *</span>
+              <select
+                class="form-select"
+                id="major"
+                name="major"
+                style="border: 1px solid #16a085"
+              >
+                <option>เลือก</option>
+                <option>คณะมนุษ</option>
+                <option>คณะมนุษย</option>
+              </select>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+
+        <!--3 Row-->
+        <div class="row row-cols-5">
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">คำนำหน้าชื่อ</label>
+              <span style="color: red"> *(ชื่อเต็ม)</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">ชื่อ</label>
+              <span style="color: red"> *</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">นามสกุล</label>
+              <span style="color: red"> *</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">บัตรประชาชน</label>
+              <span style="color: red"> *</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">เบอร์โทรศัพท์</label>
+              <span style="color: red"> *</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!--4 Row-->
+        <div class="row row-cols-4">
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">ID Line</label>
+              <span style="color: red"> *</span>
+              <!--textarea class="form-control" rows="1" id="name" name="text" style="border: 1px solid #16a085;"></textarea-->
+              <input
+                type="text"
+                class="form-control"
+                rows="1"
+                id="line"
+                style="border: 1px solid #16a085"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">Facebook</label>
+              <span style="color: red"> *</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">E-mail</label>
+              <span style="color: red"> *</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+
+        <!--5 Row-->
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="mb-1 mt-1">
+              <label for="sel1" class="form-label">วุฒิที่ใช้ในการสมัคร</label>
+              <span style="color: red"> *</span>
+              <select
+                class="form-select"
+                id="major"
+                name="major"
+                style="border: 1px solid #16a085"
+              >
+                <option>ม6</option>
+                <option>คณะมนุษ</option>
+                <option>คณะมนุษย</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-8 mt-1">
+            <div class="mb-1 mt-2">
+              <label for="name">ชื่อสถานศึกษา</label>
+              <span style="color: red"> *</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="mb-1 mt-1">
+              <label for="sel1" class="form-label">จังหวัด</label>
+              <span style="color: red"> *</span>
+              <select
+                class="form-select"
+                id="major"
+                name="major"
+                style="border: 1px solid #16a085"
+              >
+                <option>กรุงเทพ</option>
+                <option>คณะมนุษ</option>
+                <option>คณะมนุษย</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!--6 Row-->
+        <div class="row row-cols-5">
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">สาขา / สายวิชาที่เรียน</label>
+              <span style="color: red"> *</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">คะแนนเฉลี่ย (GPAX)</label>
+              <span style="color: red"> *</span>
+              <textarea
+                class="form-control"
+                rows="1"
+                id="name"
+                name="text"
+                style="border: 1px solid #16a085"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+
+        <!--7 Row-->
+        <div class="row row-cols-5">
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="sel1" class="form-label">ต้องการกู้ยืม</label>
+              <span style="color: red"> *</span>
+              <select
+                class="form-select"
+                id="major"
+                name="major"
+                style="border: 1px solid #16a085"
+              >
+                <option>เลือก</option>
+                <option>ใช่</option>
+                <option>ไม่</option>
+              </select>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+
+        <!--8 Row-->
+        <div class="row row-cols-5">
+          <div class="col">
+            <div class="mb-1 mt-1">
+              <label for="name">เอกสารแนบ</label>
+              <span style="color: red"> แฟ้มสะสมงาน</span>
+              <input
+                name="image_stu"
+                type="file"
+                id="image_stu"
+                style="border: 1px solid #16a085"
+              />
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+
+        <!--9 Row-->
+        <div class="row">
+          <div class="text-center">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <a class="btn btn-danger" href="">ยกเลิก</a>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!--container-->
+    <script>
+      (() => {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach((form) => {
+          form.addEventListener(
+            "submit",
+            (event) => {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
