@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">google.charts.load('current', {packages: ['corechart', 'line']});
+      google.charts.setOnLoadCallback(drawBasic);
+      
+      function drawBasic() {
+      
+            var data = new google.visualization.DataTable();
+            data.addColumn('number', 'X');
+            data.addColumn('number', 'Dogs');
+      
+            data.addRows([
+              [2558, 32],   [2559, 27],  [2560, 48],  [2561, 31],  [2562, 52],  [2563, 16],  [2564, 35],  [2565, 50],  [2566, 49]
+            ]);
+      
+            var options = {
+            chart: {
+                title: 'จำนวนนศ',
+                subtitle: 'คณะวิทยาการคอม'
+              },
+              hAxis: {
+                title: 'ปี'
+              },
+              vAxis: {
+                title: 'จำนวนนศ'
+              }
+            };
+      
+            var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      
+            chart.draw(data, options);
+          }
+    </script>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="panel-body table-responsive">
+        <table
+          id="dtView"
+          class="table table-striped table-bordered table-response"
+        >
+          <thead>
+            <tr>
+              <th class="text-center">ปีการศึกษา</th>
+              <th class="text-center">จำนวนนักศึกษา</th>
+              <!--th class="text-center">Feb</th>
+                    <th class="text-center">Mar</th>
+                    <th class="text-center">Apr</th>
+                    <th class="text-center">May</th>
+                    <th class="text-center">Jun</th>
+                    <th class="text-center">Jul</th>
+                    <th class="text-center">Aug</th>
+                    <th class="text-center">Sep</th>
+                    <th class="text-center">Oct</th>
+                    <th class="text-center">Nov</th>
+                    <th class="text-center">Dec</th-->
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2558</td>
+              <td>32</td>
+            </tr>
+            <tr>
+              <td>2559</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <td>2560</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>2561</td>
+              <td>31</td>
+            </tr>
+            <tr>
+              <td>2562</td>
+              <td>52</td>
+            </tr>
+            <tr>
+              <td>2563</td>
+              <td>16</td>
+            </tr>
+            <tr>
+              <td>2564</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <td>2565</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>2566</td>
+              <td>49</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="chart_div"></div>
+    </div>
+   
+  </body>
+</html>
