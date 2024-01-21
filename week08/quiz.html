@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+    <style>
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #4caf50;
+      }
+      p {
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing: 3px;
+      }
+      .rating-score {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        display: block;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 40px;
+        background-color: #ff6666;
+        color: #fff;
+      }
+      .list-topics-content {
+        position: relative;
+        top: -98px;
+        z-index: 1;
+      }
+      #roomtype {
+        width: 300px;
+        height: 400px;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <!--Nav-->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Nav -->
+
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+                alt="Logo"
+                width="30"
+                height="24"
+                class="d-inline-block align-text-top"
+              />
+              Bootstrap
+            </a>
+          </div>
+        </nav>
+
+        <!-- End Nav -->
+        <div
+          style="
+            height: 900px;
+            background-size: cover;
+            background-image: url('https://raw.githubusercontent.com/arc6828/SCS211/main/week09/img/room-6.jpg');
+          "
+        ></div>
+        <!-- <img style="width: 100%;" src="https://raw.githubusercontent.com/arc6828/SCS211/main/week09/img/room-6.jpg " /> -->
+        <div
+          style="
+            background-color: white;
+            padding: 60px;
+            margin: 60px;
+            margin-top: -60px;
+            box-shadow: 3px 3px 5px 3px gray;
+          "
+          class="w3-round"
+        >
+          <div class="w3-container w3-center">
+            <h1>Hilton San Francisco</h1>
+            <div>
+              <i class="bi bi-star-fill" style="color: tomato"></i>
+              <i class="bi bi-star-fill" style="color: tomato"></i>
+              <i class="bi bi-star-fill" style="color: tomato"></i>
+              <i class="bi bi-star-fill" style="color: tomato"></i>
+              <i class="bi bi-star-half" style="color: tomato"></i>
+            </div>
+            <p style="text-align: center">
+              Facilities provided may range from a modest quality mattress in a
+              small room to large sites
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--round-rating-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="rating-score">8.9<span class=""></span></div>
+        </div>
+        <div class="col-sm-10">
+          <p style="text-align: left">Excellant</p>
+          <br />
+          <p style="text-align: left">see 800 reviews</p>
+        </div>
+      </div>
+      <hr class="border border-danger border-2 opacity-50" />
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Description</h2>
+          <br />
+          <p>
+            Facilities provided may range from a modest quality mattress in a
+            small room to large sites 218 Austen Mountain, consectetur
+            adipiscing sed do eiusmod tempor indididunt ut labore et…
+          </p>
+          <hr class="border border-danger border-2 opacity-50" />
+        </div>
+      </div>
+      <div class="row rows-col-5">
+        <div class="col" style="text-align: center">
+          <svg style="color: tomato; xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+          </svg>
+          <h5>wifi</h5>
+        </div>
+        <div class="col" style="text-align: center" >
+          <svg style="color: tomato;  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+          </svg>
+          <h5>wifi</h5>
+         </div>
+        <div class="col" style="text-align: center">
+          <svg style="color: tomato; xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+          </svg>
+          <h5>wifi</h5>
+        </div>
+        <div class="col" style="text-align: center">
+          <svg style="color: tomato; xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+          </svg>
+          <h5>wifi</h5>
+        </div>
+        <div class="col" style="text-align: center">
+          <svg style="color: tomato; xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+          </svg>
+          <h5>wifi</h5>
+        </div>
+      </div>
+      <hr class="border border-danger border-2 opacity-50" />
+      <!--div style="display:flex; justify-content: space-around; margin-top: 10px; padding: 20px; background-color: #fff; text-align: center;">
+      <div>
+        <div style="background-color: lightgrey; width: 50px;height: 50px;display: flex; justify-content: center; align-items: center; border-radius: 25px;">
+          <i class="bi bi-1-circle"></i></div>
+        <h3>wifi</h3>
+        <div style="background-color: lightgrey; width: 50px;height: 50px;display: flex; justify-content: center; align-items: center; border-radius: 25px;">
+          <i class="bi bi-1-circle"></i></div>
+        <h3>wifi</h3>
+      </div>
+      </div-->
+      
+
+    </div>
+    
+    <div class="container">
+      
+      <div class="container">
+        <h3>Location</h3>
+        11 Sukhumvit 24 Alley, Khwaeng Khlong Tan, Khet Khlong Toei, Bangkok
+        10110•02 620 6666
+        <br />
+        <div class="row">
+          <div class="col-12" style="height: 500px">
+            <div class="position-relative h-100">
+              <iframe
+                class="position-relative w-100 h-100"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15503.082258582299!2d101.2134323!3d13.732336!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5fcf802a886a9a24!2z4Lih4Li54Lil4LiZ4Li04LiY4Li04Lio4Li54LiZ4Lii4LmM4LmA4LiB4Li04LiU4LmD4Lir4Lih4LmI4Lir4LiN4Li04LiH!5e0!3m2!1sth!2sth!4v1672208506096!5m2!1sth!2sth"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+              <hr class="border border-danger border-2 opacity-50" />
+
+              <div class="row">
+                <h1 style="text-align: start;">Room type</h1>
+                <div class="col-lg-3">
+                  <img
+                    id="roomtype"
+                    class="rounded mx-auto d-block"
+                    src="https://media.cnn.com/api/v1/images/stellar/prod/140127103345-peninsula-shanghai-deluxe-mock-up.jpg"
+                  />
+                </div>
+                <div class="col-lg-9">
+                  <h2>Standard Twinroom</h2>
+                  <br />
+                  <h1 class="text-danger" style="text-align: start;">$100</h1>
+                  <h4 class="text-primary">hurry up this is your last room!</h4>
+                </div>
+              </div>
+              <hr class="border border-danger border-2 opacity-50" />
+              <div class="row">
+                <div class="col-lg-10">
+                  <br /><br />
+                  <h5 class="text-dark" style="text-align: start;">Price</h5>
+                  <h1 class="text-danger" style="text-align: start;">$100</h1>
+                  <h5 class="text-dark" style="text-align: start;">AVG/night</h5>
+                </div>
+                <div class="col-lg-2 my-auto">
+                  <button class="btn btn-danger btn-lg" type="button" style="text-align: center;">
+                    Button
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
