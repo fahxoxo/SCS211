@@ -1,0 +1,13 @@
+{
+    "people": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "education": "Bachelor's Degree in Business",
+        "role": "Sales Manager",
+        "email": "john.doe@example.com",
+        "phone": "123-456-7890",
+        "image": "https://rebirth-center.org/img/about.jpg"
+      }
+    ]
+  }
