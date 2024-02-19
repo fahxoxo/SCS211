@@ -45,8 +45,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">หน้าหลัก</a>
-                        <a href="1-1gallery.php.php" class="nav-item nav-link">รูปภาพ</a>                                             
+                        <a href="index.php" class="nav-item nav-link active">หน้าหลัก</a>                                             
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">บทความ</a>
                             <div class="dropdown-menu m-0">
@@ -55,7 +54,16 @@
                                 <a href="0houserule.php" class="dropdown-item">กฏระเบียบ</a>
                                 <a href="0concept.php" class="dropdown-item">แนวความคิด</a>
                                 <a href="0philosophy.php" class="dropdown-item">ปรัชญา</a>
-                                <a href="1-2gallery.php" class="dropdown-item">แกลลอรี่รูปภาพ</a>
+                                <a href="1-2gallery.php" class="dropdown-item">แกลลอรี่รูปภาพ2</a>
+                                <a href="1-3gallery.php" class="dropdown-item">แกลลอรี่รูปภาพ3</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">บทความ</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="1-1gallery.php" class="dropdown-item">แกลลอรี่รูปภาพ1</a>
+                                <a href="1-2gallery.php" class="dropdown-item">แกลลอรี่รูปภาพ2</a>
+                                <a href="1-3gallery.php" class="dropdown-item">แกลลอรี่รูปภาพ3</a>
                             </div>
                         </div>
                         <a href="qna.php" class="nav-item nav-link">คำถามที่พบบ่อย</a>
