@@ -3,81 +3,42 @@
       {
         "id": 1,
         "name": "a1",
-        "education": "Bachelor's Degree in Business",
-        "role": "Sales Manager",
-        "email": "john.doe@example.com",
-        "phone": "123-456-7890",
         "image": "https://scontent.fbkk31-1.fna.fbcdn.net/v/t39.30808-6/334557226_750129850163641_3186971320313872222_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a73e89&_nc_eui2=AeGSBhM-3foYi7Zsq6YB72X4g89bYO_yVV2Dz1tg7_JVXZ5EtPZ6d7KH6o70Xd4O48sF4yNdxa9VO2GJorxZKh3A&_nc_ohc=x1EMAnlFxk8AX9b9_2_&_nc_ht=scontent.fbkk31-1.fna&oh=00_AfCZzF4sSVJ3zOAGXDcpxneG0N4FdKXH_mcfJlLNVXPf_w&oe=65D71D4E"
       },
       {
         "id": 2,
         "name": "a2",
-        "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | วท.บ. (วิทยาการคอมพิวเตอร์) - สถาบันราชภัฏเทพสตรี",
-        "role": "ผู้ช่วยศาสตราจารย์",
-        "email": "nattila@vru.ac.th",
-        "phone": "",
         "image": "https://scontent.fbkk31-1.fna.fbcdn.net/v/t39.30808-6/334050796_754781889371543_5195249078539937605_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a73e89&_nc_eui2=AeHxAJF2U80BeBezMFOcYHGqo78-E_EThpSjvz4T8ROGlDQrdH1srD7cuqGTLxWCdRiMlMkDVwWYqWSp06F200a0&_nc_ohc=ykvtRjtE43AAX-DjNO3&_nc_ht=scontent.fbkk31-1.fna&oh=00_AfD47_DPqjltKGSd_61iAYqBNP3UB8p-RX8gvm_LyCyw1A&oe=65D749BD",
-        "office": "IT102 อาคาร 75 ปีฯ"
       },
       {
         "id": 3,
         "name": "a3",
-        "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | วท.บ. (วิทยาการคอมพิวเตอร์) - สถาบันราชภัฏเทพสตรี",
-        "role": "ผู้ช่วยศาสตราจารย์",
-        "email": "nattila@vru.ac.th",
-        "phone": "",
         "image": "https://scontent.fbkk31-1.fna.fbcdn.net/v/t39.30808-6/334062657_718859056631864_5978240189911235386_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a73e89&_nc_eui2=AeFQzuDn37hRH2huNXS0S9UFfKz66B2KQ1t8rProHYpDW5jJS4yR8eWI5D0Xk5rn5B5g1qgVIYsUf9gmS9HqMOrf&_nc_ohc=Vb5ypBgCtJgAX-dYVUE&_nc_ht=scontent.fbkk31-1.fna&oh=00_AfBuI-u96guZeN6rQiNI326PNjarWaONrdfLGYSUrWM5FQ&oe=65D8A340",
-        "office": "IT102 อาคาร 75 ปีฯ"
       },
       {
         "id": 4,
         "name": "a4",
-        "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | วท.บ. (วิทยาการคอมพิวเตอร์) - สถาบันราชภัฏเทพสตรี",
-        "role": "ผู้ช่วยศาสตราจารย์",
-        "email": "nattila@vru.ac.th",
-        "phone": "",
         "image": "https://scontent.fbkk31-1.fna.fbcdn.net/v/t39.30808-6/334219256_577990867720604_3661897572521076138_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a73e89&_nc_eui2=AeHfWBp4ANksPvvMrdDTY52Gqd0rv87jLOqp3Su_zuMs6hefiA8ldCsExer27Th6bEcNXTdeA-2MDl15KaLf0BqE&_nc_ohc=fPitfP96Ro0AX__ldSp&_nc_ht=scontent.fbkk31-1.fna&oh=00_AfBgWQyTyl9A9bFvO7czRSM71LAEPuWJxy60K35ktC6LZA&oe=65D8B33B",
-        "office": "IT102 อาคาร 75 ปีฯ"
       },
       {
         "id": 5,
         "name": "a5",
-        "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | วท.บ. (วิทยาการคอมพิวเตอร์) - สถาบันราชภัฏเทพสตรี",
-        "role": "ผู้ช่วยศาสตราจารย์",
-        "email": "nattila@vru.ac.th",
-        "phone": "",
         "image": "https://scontent.fbkk31-1.fna.fbcdn.net/v/t39.30808-6/374663459_237782912581573_432493046676621377_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeGxR0w5S_9EhqLqzCUzTclk1Pb59oVdms7U9vn2hV2azmGKXvr0B5tbK6IS2YQiQp8vxnDyDbWPHA8AxFLsNbvN&_nc_ohc=X_A7d6sMZVUAX96Nocp&_nc_ht=scontent.fbkk31-1.fna&oh=00_AfDU5O5NP0WJ9KTC2nPuePGaT1EsjxrapH9lTt2gDB5WRA&oe=65D75B21",
-        "office": "IT102 อาคาร 75 ปีฯ"
       },
       {
         "id": 6,
         "name": "a6",
-        "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | วท.บ. (วิทยาการคอมพิวเตอร์) - สถาบันราชภัฏเทพสตรี",
-        "role": "ผู้ช่วยศาสตราจารย์",
-        "email": "nattila@vru.ac.th",
-        "phone": "",
         "image": "https://scontent.fbkk31-1.fna.fbcdn.net/v/t39.30808-6/374560777_237782979248233_1931170333027180155_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeHFDyyoy47eRYv44_tB0ssedQ1qroaXSaF1DWquhpdJoaJZ5gVmNc2uW1XAIuCeoQyLf7F6Mk60wiCQLb5C9PmN&_nc_ohc=yO_TpRped9EAX-dchPG&_nc_ht=scontent.fbkk31-1.fna&oh=00_AfDl-Cjx2aSD9JIt8k3b6B59NrPP2gfmrzKsWpT9fhzzdw&oe=65D6DC25",
-        "office": "IT102 อาคาร 75 ปีฯ"
       },
       {
         "id": 7,
         "name": "a7",
-        "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | วท.บ. (วิทยาการคอมพิวเตอร์) - สถาบันราชภัฏเทพสตรี",
-        "role": "ผู้ช่วยศาสตราจารย์",
-        "email": "nattila@vru.ac.th",
-        "phone": "",
         "image": "https://scontent.fbkk31-1.fna.fbcdn.net/v/t39.30808-6/370381378_237783015914896_8979558442032343940_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeFfjTe-EVYzMbRn0_uiJdYZajOoP3gCQipqM6g_eAJCKjZROYQmy1gwhgZ6nRw3zoWZyR-sw5M99sY0-WQTsyqV&_nc_ohc=r1A9jiQuIP8AX9_93Qc&_nc_ht=scontent.fbkk31-1.fna&oh=00_AfDS56GALaCtSqAOH2bddqFscdmFPp_boUFYJqrh7LmwDw&oe=65D8826F",
-        "office": "IT102 อาคาร 75 ปีฯ"
       },
       {
         "id": 8,
         "name": "a8",
-        "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | วท.บ. (วิทยาการคอมพิวเตอร์) - สถาบันราชภัฏเทพสตรี",
-        "role": "ผู้ช่วยศาสตราจารย์",
-        "email": "nattila@vru.ac.th",
-        "phone": "",
         "image": "https://scontent.fbkk31-1.fna.fbcdn.net/v/t39.30808-6/374568999_237783062581558_5146627607011888633_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeEs9Nm2PZinF1uL90gtRp3nl-LQvB6LEUeX4tC8HosRR6-jvfiBPwi6AeiYczblNMoA51zH91xZWhzwmum-mQXs&_nc_ohc=DuQQBEov9UkAX_BFyS-&_nc_oc=AQn-2ERafeyLjOUqKgtB0VylzNRtKalH3E4HJSoO0l3wlhKGHkx01DZY9sCohB27YZoTIg43YcllAFzyJNOehY4W&_nc_ht=scontent.fbkk31-1.fna&oh=00_AfDSRl-xo7idWegGSvFw6p-AVq9Q8o7VKDyXGBhFBLkCdg&oe=65D76BB3",
-        "office": "IT102 อาคาร 75 ปีฯ"
       }
     ]
   }
