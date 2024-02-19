@@ -63,9 +63,9 @@
             $json = file_get_contents($json_url);
             $data = json_decode($json, true);
 
-            foreach ($data as $item) {
+            foreach ($data['people'] as $person) {
                echo '<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">';
-               echo '<img src="' . $item['url'] . '" class="img-fluid">';
+               echo '<img src="' . $person['image'] . '" class="img-fluid">';
                echo '</div>';
             }
             ?>
@@ -76,9 +76,9 @@
             $json = file_get_contents($json_url);
             $data = json_decode($json, true);
 
-            foreach ($data as $item) {
+            foreach ($data['people'] as $person) {
                echo '<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">';
-               echo '<img src="' . $item['url'] . '" class="img-fluid">';
+               echo '<img src="' . $person['image'] . '" class="img-fluid">';
                echo '</div>';
             }
             ?>

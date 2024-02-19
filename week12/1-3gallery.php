@@ -63,19 +63,20 @@
          $data = json_decode($json, true);
 
          // แบ่งข้อมูลเป็นกลุ่มของรูปภาพตาม row ที่มี 4 รูปภาพในแต่ละ row
-         $rows = array_chunk($data, 4);
+         $rows = array_chunk($data['people'], 4);
 
          foreach ($rows as $row) {
             echo '<div class="row">';
-            foreach ($row as $item) {
+            foreach ($row as $person) {
                echo '<div class="col-md-3">';
-               echo '<img src="' . $item['url'] . '" class="img-fluid">';
+               echo '<img src="' . $person['image'] . '" class="img-fluid">';
                echo '</div>';
             }
             echo '</div>';
          }
          ?>
       </div>
+
       <!--div class="container-fluid">
             <div class="row">
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">

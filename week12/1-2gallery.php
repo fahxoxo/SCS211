@@ -62,15 +62,16 @@
          $json = file_get_contents($json_url);
          $data = json_decode($json, true);
 
-         $num_rows = ceil(count($data) / 4); // คำนวณจำนวน row ที่จำเป็นต้องมี
+         $people = $data['people'];
+         $num_rows = ceil(count($people) / 4); // คำนวณจำนวน row ที่จำเป็นต้องมี
 
          for ($i = 0; $i < $num_rows; $i++) {
             echo '<div class="row">';
             for ($j = 0; $j < 4; $j++) {
                $index = $i * 4 + $j;
-               if ($index < count($data)) {
+               if ($index < count($people)) {
                   echo '<div class="col-md-3">';
-                  echo '<img src="' . $data[$index]['url'] . '" class="img-fluid">';
+                  echo '<img src="' . $people[$index]['image'] . '" class="img-fluid">';
                   echo '</div>';
                }
             }
